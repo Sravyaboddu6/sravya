@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="fun1.js"></script>
+</head>
+<body>
+<form name="registration" onsubmit="fun1()">  
+<table>
+<tr><td>Userid</td><td><input type="text" name="t1" ></td></tr>
+<tr><td>Name</td><td><input type="text" name="t2"></td></tr>
+<tr><td>Address</td><td><input type="text area" name="t3"></td></tr>
+<tr><td>Email</td><td><input type="text" name="t4"></td></tr>
+<tr><td>Gender</td><td><input type="radio" name="gender" value="male"> Male<br></td>
+<td><input type="radio" name="gender" value="female"> Female<br></td>
+<td><input type="radio" name="gender" value="other"> Other</td>
+</tr>
+<tr><td>Country</td><td><select>
+  <option value="c1">India</option>
+  <option value="c2">US</option>
+  <option value="c3">Australia</option>
+  <option value="c4">Canada</option>
+</select></td></tr>
+<tr><td>ZipCode</td><td><input type="number" name="t4" ></td></tr>
+<tr><td>Language</td><td><input type="checkbox" name="l1" value="English">English<br>
+<input type="checkbox" name="l2" value="Hindi">Hindi <br>
+<input type="checkbox" name="l3" value="Other" checked>
+Other <br>
+<tr><td>password</td><td><input type="password" name="t5"required></td></tr>
+<tr><td>About</td><td><input type="text area" name="t6"></td></tr>
+<center><tr><td><input type="submit" value="Submit"  name="submit"></td>
+<td><input type="reset" value="reset" name="cancel"></td></tr></center>
+
+</table>
+</form> 
+
+</body>
+</html>
